@@ -1,20 +1,33 @@
 fun main(){
-    println(tamanho("camisa"))
-    println(tamanho(5))
+    
 }
 
-fun tamanho(s: String): Int{
-    return s.length
+fun mensagem(nome: String){
+    println("Olá $nome!")
 }
 
-fun tamanho(n: Int): String{
-    var retorno = ""
-    for (i in 0 .. n){
-        retorno += "a"
-    }
+val lambda = {nome: String -> println("Olá $nome!")}
 
-    return retorno
-}
+
+
+
+
+
+
+
+
+//fun tamanho(s: String): Int{
+//    return s.length
+//}
+//
+//fun tamanho(n: Int): String{
+//    var retorno = ""
+//    for (i in 0 .. n){
+//        retorno += "a"
+//    }
+//
+//    return retorno
+//}
 
 
 
