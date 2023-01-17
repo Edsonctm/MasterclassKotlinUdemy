@@ -1,12 +1,19 @@
 fun main(){
-    
+    x(2,3,11,3,55,67,7,3,667,73,2,46,6)
 }
 
-fun mensagem(nome: String){
-    println("Olá $nome!")
+fun x(vararg n: Int){
+    println(n.filter { it in 10..99 })
 }
 
-val lambda = {nome: String -> println("Olá $nome!")}
+
+
+
+//fun mensagem(nome: String){
+//    println("Olá $nome!")
+//}
+//
+//val lambda = {nome: String -> println("Olá $nome!")}
 
 
 
