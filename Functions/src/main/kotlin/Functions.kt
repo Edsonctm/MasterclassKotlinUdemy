@@ -1,13 +1,29 @@
 fun main(){
-    x(2,3,11,3,55,67,7,3,667,73,2,46,6)
+    test(arrayListOf(2,3,5,6,87,3,6,8,8,4,2,4,7,2,56,78,5,433,2))
 }
 
-fun x(vararg n: Int){
-    println(n.filter { it in 10..99 })
+fun test(n: ArrayList<Int>){
+    val alterN = n.map {
+        if (it % 2 == 0){
+            it * 2
+        } else {
+            it / 2
+        }
+    }
+    println(alterN.filter { it > 25 })
 }
 
 
 
+//fun y(n: ArrayList<String>){
+//    println(n.sortedByDescending { it.length - 1 })
+//}
+
+
+
+//fun x(vararg n: Int){
+//    println(n.filter { it in 10..99 })
+//}
 
 //fun mensagem(nome: String){
 //    println("Olá $nome!")
