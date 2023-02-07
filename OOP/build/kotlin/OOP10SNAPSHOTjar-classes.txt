@@ -1,0 +1,1 @@
+C:\Users\edson\OneDrive\Documentos\ProjetosDEV\MasterclassKotlinUdemy\OOP\build\classes\kotlin\main\Classes\Calculadora.class;C:\Users\edson\OneDrive\Documentos\ProjetosDEV\MasterclassKotlinUdemy\OOP\build\classes\kotlin\main\Classes\Carro.class;C:\Users\edson\OneDrive\Documentos\ProjetosDEV\MasterclassKotlinUdemy\OOP\build\classes\kotlin\main\MainKt.class
