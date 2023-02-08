@@ -1,15 +1,11 @@
 import Classes.Calculadora
 import Classes.Carro
+import Classes.Moto
 
 fun main(args: Array<String>){
     val meuCarro = Carro()
-    val calc = Calculadora()
+    val minhaMoto = Moto()
 
-    meuCarro.modelo = "BMW"
-
-    calc.soma(5)
-    calc.subtrai(2)
-    calc.multiplica(10)
-    calc.divide(3)
-    calc.reseta()
+    meuCarro.ligar()
+    minhaMoto.ligar()
 }

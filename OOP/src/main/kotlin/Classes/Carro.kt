@@ -1,10 +1,10 @@
 package Classes
 
-class Carro {
+open class Carro {
     var modelo: String? = null
     var velocidadeMaxima = 100
 
-    fun ligar() {
+    open fun ligar() {
         println("O carro $modelo foi ligado!")
     }
 
