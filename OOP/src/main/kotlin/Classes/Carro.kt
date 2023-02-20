@@ -3,6 +3,18 @@ package Classes
 import java.util.*
 
 open class Carro {
+
+    companion object{
+        fun alertaSeguranca() {
+            println("Se beber não dirija!")
+        }
+
+    }
+
+
+
+
+
     var modelo: String? = null
     var velocidadeMaxima: Int = 0
 
